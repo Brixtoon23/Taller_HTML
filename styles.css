@@ -18,6 +18,13 @@ h1 {
     font-weight: bold;
 }
 
+.lead {
+    margin-top: 10px; /* Espacio encima de la descripción */
+    font-size: 1.25rem; /* Tamaño de fuente más grande */
+    color: #555; /* Color del texto */
+}
+
+
 /* Estilo para las tarjetas */
 .card {
     background-color: #fff;
