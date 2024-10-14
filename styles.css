@@ -3,16 +3,19 @@ body {
     color: #333;
 }
 
-h1 {
-    color: #333; /* Azul más oscuro para contraste */
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
+.oval-title {
+    background-color: white; /* Color de fondo blanco para el óvalo */
+    color: #333; /* Color del texto */
+    padding: 15px 30px; /* Espaciado interno */
+    border-radius: 50px; /* Bordes redondeados para el óvalo */
+    display: inline-block; /* Para que el tamaño se ajuste al contenido */
+    margin: auto; /* Centrar el título */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra para el óvalo */
 }
 
-.carousel-item img {
-    border-radius: 10px;
-    max-height: 400px;
-    object-fit: cover;
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
 }
 
 /* Estilo para las tarjetas */
@@ -57,16 +60,3 @@ h1 {
     padding-top: 20px;
 }
 
-/* Cambiar el color de las flechas del carrusel */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
-    filter: invert(100%); /* Cambia el color de las flechas a blanco */
-    border-radius: 50%; /* Hace las flechas circulares */
-}
-
-.carousel-control-prev-icon:hover,
-.carousel-control-next-icon:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo más oscuro al pasar el mouse */
-    filter: invert(50%); /* Cambia el color al pasar el mouse */
-}
